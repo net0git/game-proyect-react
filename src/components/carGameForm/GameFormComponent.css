@@ -1,0 +1,39 @@
+.formulario-container {
+    border: 2px solid #87CEFA; /* Borde con color azul pálido */
+    padding: 20px; /* Espaciado interno para separar el contenido del borde */
+    width: 450px; /* Ancho del formulario */
+    margin: 20px auto; /* Centrar el formulario en la página */
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaciado entre los elementos del formulario */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #87CEFA; /* Fondo azul pálido para el botón */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6495ED; /* Cambia el color al pasar el mouse sobre el botón */
+  }
