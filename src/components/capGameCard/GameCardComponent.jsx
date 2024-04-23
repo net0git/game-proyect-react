@@ -22,7 +22,7 @@ const GameCard = ({ id, titulo, descripcion, imagen,onDelete,onIdElemento }) => 
  const header = (
   <img src={imagen} className="card-img-top" alt='card' />
 );
-
+<h1>texto de prueba</h1>
 // Definición del footer
 const footer = (
   <span>
