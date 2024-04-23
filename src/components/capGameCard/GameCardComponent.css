@@ -1,11 +1,16 @@
 /* src/components/GameCard.css */
 .card {
-    width: 18rem;
-    margin: 10px;
-    border: 1px solid #ddd;
+
+    margin: 12px;
+    border: 1px solid #d4d4d4be;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.2s;
+    width: 300px; /* Ancho fijo para todas las tarjetas */
+    height: 400px; /* Altura fija para todas las tarjetas */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5); /* Agrega sombra ligera */
+    background-color: #ffffffee;
+  /* overflow: auto;  */
   }
   
   .card:hover {
@@ -13,12 +18,14 @@
   }
   
   .card-img-top {
-    max-height: 200px;
+    
+    max-height: 150px;
     object-fit: cover;
   }
   
   .card-body {
     padding: 10px;
+    
   }
   
   .card-title {
@@ -41,14 +48,14 @@
    
   }
 
-  button{
+  /* button{
     margin: 0px 4px;
   }
 
-.boton-eliminar{
+/* .boton-eliminar{
     background-color: #992727db;
   }
 .boton-eliminar:hover{
-    background-color: #cb2020;
-}
-  
+    background-color: #b73b3bdb;
+} */
+   

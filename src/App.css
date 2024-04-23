@@ -1,41 +1,55 @@
+@import 'primereact/resources/themes/saga-blue/theme.css';  /* tema */
+@import 'primereact/resources/primereact.min.css';          /* core css */
+@import 'primeicons/primeicons.css';  
+
 .App {
   text-align: center;
+ 
+  /* background-image: url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp'); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.286)), url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp');
+
+  
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 20%;
+  min-height: 100vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
+
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cadae00c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(30, 29, 29, 0.842);
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .App-link {
+  color: #323a3c;
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* modificaciones personales */
 .centered-container {
@@ -43,4 +57,4 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+} 

@@ -1,5 +1,9 @@
 
 import React, { useEffect, useState } from 'react';
+
+
+
+
 import './App.css';
 import GameCard from './components/capGameCard/GameCardComponent';
 import Formulario from './components/carGameForm/GameFormComponent';
@@ -119,11 +123,10 @@ function App() {
 };
 
   return (
-    <div className="App">
-      
+    <div className="App">  
       <header className="App-header">
-      <h2 >LIST GAME</h2>
-          {/* <Formulario onGame={game} /> */}
+      
+      <br></br>
             <Formulario onGame={game} idElement={idgame} onGuardarGame={handleGuardar} onModificarGame={handeModificar}/>
               <div className='centered-container'>
                 {games.map(game => (
@@ -132,12 +135,18 @@ function App() {
                     id={game.id}
                     titulo={game.titulo}
                     imagen={game.imagen}
+                    descripcion={game.descripcion}
                     onDelete={handleDelete}
                     onIdElemento={handleObtenerElementoPorId}
                   />
                 ))}
               </div>   
+              
+              <div>
+              
+    </div>
       </header>
+     
     </div>
   );
 }
